@@ -1,30 +1,68 @@
-# Islomjon Ulmasov — AI Solution Engineer
+<p align="center">
+  <img src="banner.svg" alt="Islomjon Ulmasov, AI Solution Engineer" width="100%">
+</p>
 
-I build AI agents, Telegram bots and automations that real businesses in Samarkand use every day: a hotel, a paid parking lot at the railway station, a clinic and a training centre. Before that I spent two years in QA at Accenture and Cognizant in Riga.
+<p align="center">
+  <a href="https://www.linkedin.com/in/islom-ulmasov"><img src="https://img.shields.io/badge/LinkedIn-islom--ulmasov-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:ulmasovi0010@gmail.com"><img src="https://img.shields.io/badge/Email-ulmasovi0010%40gmail.com-3a393f?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://wa.me/998936800010"><img src="https://img.shields.io/badge/WhatsApp%20%2F%20Telegram-%2B998%2093%20680%2000%2010-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp / Telegram"></a>
+</p>
 
-I write code together with Claude Code and Cursor. I decide how the system fits together, read and fix what the AI writes, and deploy it to my own servers.
+I build AI agents, Telegram bots and automations that real businesses in Samarkand use every day: a hotel, a paid parking lot, a clinic and a training centre. Before that I spent two years in QA at Accenture and Cognizant in Riga.
 
-## What I have built (since 2025)
+I decide how the system fits together, write the code with Claude Code and Cursor, review what the AI writes and deploy it to my own servers.
 
-| Project | What it does |
-|---|---|
-| [Zagan](https://helper.bagizagan.com) | Guest assistant for Hotel Bagizagan. Guests type or talk to it in Russian, English or Uzbek. It checks live prices in the Exely PMS, books rooms and passes restaurant, cleaning, transfer and guide requests to staff. Voice on ElevenLabs. |
-| MCP server for Exely PMS | FastMCP + OAuth2. I ask questions about 1,000+ hotel reservations in plain language instead of building reports by hand. |
-| [@Marokand_humo_bot](https://t.me/Marokand_humo_bot) | Signs students up for logistics courses so warm leads no longer slip away. Sends news and job openings, collects reviews. |
-| [@DrAlikulov_bot](https://t.me/DrAlikulov_bot) | Books online consultations with a doctor and only lets patients in after they pay. |
-| [B2B tour constructor](https://travel.bagizagan.com) | Travel agents put a tour together step by step, in four languages. FastAPI backend, frontend moving to React. |
-| [med-online.uz](https://med-online.uz) | Patients get a consultation or a second opinion online from doctors in other countries. |
-| Parking automation | Hikvision cameras read number plates at Samarkand railway station; the system works out the fee by the minute, with payments, reports and an account for each cashier. |
-| Income and expense tracking | Financial dashboard for a company, now being extended into a CRM with contacts, deals and a sales funnel. |
-| AI video editing agent | Made a promo video for a travel company on its own: found the footage, trimmed it and cut it to the beat of the music, with titles. |
+## Featured work
 
-## Stack
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://helper.bagizagan.com">Zagan</a></b><br>
+      AI guest assistant for Hotel Bagizagan. Text and voice in three languages, live prices and bookings straight from the Exely PMS.
+    </td>
+    <td width="50%" valign="top">
+      <b>MCP server for Exely PMS</b><br>
+      FastMCP + OAuth2. I ask questions about 1,000+ reservations in plain language instead of building reports by hand.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b>Telegram bots</b><br>
+      Eight bots, six of them internal. <a href="https://t.me/Marokand_humo_bot">@Marokand_humo_bot</a> handles course enrolment so leads don't get lost; <a href="https://t.me/DrAlikulov_bot">@DrAlikulov_bot</a> books prepaid doctor consultations.
+    </td>
+    <td valign="top">
+      <b><a href="https://travel.bagizagan.com">B2B tour constructor</a></b><br>
+      Travel agents put a tour together step by step, in four languages. FastAPI backend, frontend moving to React.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b><a href="https://med-online.uz">med-online.uz</a></b><br>
+      Online consultations and second opinions from doctors in other countries.
+    </td>
+    <td valign="top">
+      <b>Parking automation</b><br>
+      Hikvision cameras read number plates at Samarkand railway station; per-minute billing, payments, reports and an account for each cashier.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b>Finance dashboard → CRM</b><br>
+      Income and expense tracking for a company, now growing into a CRM with contacts, deals and a sales funnel.
+    </td>
+    <td valign="top">
+      <b>AI video editing agent</b><br>
+      Found the footage, trimmed it and cut a promo video to the beat of the music, with titles, on its own.
+    </td>
+  </tr>
+</table>
 
-- **AI and agents:** Claude and GPT models, MCP / FastMCP, n8n, ElevenLabs, Claude Code, Cursor
-- **Backend:** Python, FastAPI, SQL (SQLite, PostgreSQL / Supabase), REST APIs, OAuth2, Telegram Bot API, Click and Payme payments
-- **Infrastructure:** DigitalOcean (Linux VPS), Vercel, Supabase, Cloudflare, Caddy, systemd, Git
-- **Learning now:** TypeScript, Power BI, ETL/ELT, LangChain and LangGraph, vector databases, CI/CD
+## Tech stack
 
-## Contact
+<p>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,js,react,html,css,postgres,sqlite,supabase,linux,git,github,vercel,cloudflare&perline=14" alt="Python, FastAPI, JavaScript, React, HTML, CSS, PostgreSQL, SQLite, Supabase, Linux, Git, GitHub, Vercel, Cloudflare">
+</p>
 
-[LinkedIn](https://www.linkedin.com/in/islom-ulmasov) · ulmasovi0010@gmail.com · Telegram / WhatsApp: +998 93 680 00 10
+**AI and agents:** Claude and GPT models · MCP / FastMCP · n8n · ElevenLabs · Claude Code · Cursor  
+**Integrations:** REST APIs · OAuth2 · Telegram Bot API · Exely PMS · Click and Payme · Hikvision ANPR  
+**Learning now:** TypeScript · Power BI · ETL/ELT · LangChain and LangGraph · vector databases · CI/CD
