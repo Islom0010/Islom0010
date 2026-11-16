@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-label="Islomjon Ulmasov, AI Solution Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f1f24"/>
+      <stop offset="1" stop-color="#3a393f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#5eaad6" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5eaad6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="300" rx="16" fill="url(#dots)"/>
+  <rect width="1280" height="300" rx="16" fill="url(#glow)"/>
+  <g stroke="#5eaad6" stroke-opacity="0.35" stroke-width="1" fill="none">
+    <path d="M760 60 L850 110 L930 70 L1040 120 L1130 60 L1210 110"/>
+    <path d="M850 110 L880 210 L990 240 L1040 120"/>
+    <path d="M990 240 L1110 200 L1210 110"/>
+    <path d="M1110 200 L1180 260"/>
+  </g>
+  <g fill="#5eaad6" fill-opacity="0.8">
+    <circle cx="760" cy="60" r="3"/><circle cx="850" cy="110" r="4"/><circle cx="930" cy="70" r="3"/>
+    <circle cx="1040" cy="120" r="5"/><circle cx="1130" cy="60" r="3"/><circle cx="1210" cy="110" r="4"/>
+    <circle cx="880" cy="210" r="3"/><circle cx="990" cy="240" r="4"/><circle cx="1110" cy="200" r="3"/>
+    <circle cx="1180" cy="260" r="3"/>
+  </g>
+  <g font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="64" y="118" font-size="46" font-weight="700" fill="#f5f6f8">Islomjon Ulmasov</text>
+    <text x="64" y="164" font-size="26" font-weight="600" fill="#8ec5e6">AI Solution Engineer</text>
+    <text x="64" y="208" font-size="19" fill="#c9ccd2">AI agents · LLM integrations · Business automation</text>
+    <text x="64" y="244" font-size="16" fill="#9a9ea6">Samarkand, Uzbekistan</text>
+  </g>
+</svg>
